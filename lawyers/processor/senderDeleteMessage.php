@@ -1,0 +1,8 @@
+<?php
+	include("../../includes/db.php");
+	if (isset($_POST['message_id'])) {
+		$query = $connect->prepare("UPDATE table_messages SET sender_delete = '1' WHERE id = ? ");
+        $query->execute([$_POST['message_id']]);
+        echo "Message delete on your side";
+	}
+?>

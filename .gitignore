@@ -1,0 +1,7 @@
+*.log
+*.exe
+temp/
+pages/
+test.c
+DS_Store/
+*.DS_Store

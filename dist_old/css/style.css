@@ -1,0 +1,28 @@
+body {
+	font-family: monospace;
+}
+a:active, a:link {
+	text-decoration: none;
+}
+a img.Milatuicon {
+	width: 24.5%;
+	position: relative;
+	left: 1.9em;
+	top:-2.5em;
+}
+a span.brandname {
+	font-weight: 800;
+	font-size: 1.5em;
+	font-family: Georgia;
+}
+a span.slogan {
+	position: relative;
+/*	left: 3.7em;*/
+	top:-1.8em;
+	font-size: .8em;
+	font-family: Georgia;
+}
+div#navbarNavDropdown {
+	position: relative;
+	top: -1.8em;
+}
